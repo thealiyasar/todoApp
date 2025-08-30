@@ -77,7 +77,11 @@ export default function Header({
     <Container>
       <Title>{t("title")}</Title>
       <TopRight>
-        <GitHubLink href="https://github.com/" target="_blank" rel="noreferrer">
+        <GitHubLink
+          href="https://github.com/thealiyasar/todoApp"
+          target="_blank"
+          rel="noreferrer"
+        >
           <GitHubIcon size={36} theme={theme} />
         </GitHubLink>
         <ToggleButton onClick={toggleTheme}>
