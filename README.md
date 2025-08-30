@@ -1,12 +1,58 @@
-# React + Vite
+EN [English](./README.md) -
+TR [Türkçe](./README.tr.md) -
+DE [German](./README.de.md) -
+RU [Russian](./README.ru.md) -
+ES [Spanish](./README.es.md)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Multi-language Todo App
 
-Currently, two official plugins are available:
+## ScreenShot Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App demo](/public/en.jpg)
 
-## Expanding the ESLint configuration
+## Online Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Online Demo](https://multilang-todo.vercel.app/)
+
+A simple multi-language Todo application built with React and styled-components.  
+Supports multiple languages (English, Turkish, German, Russian, Spanish), light/dark theme, and persistent todos using localStorage.
+
+## Features
+
+- Add, delete, and mark todos as completed
+- Filter todos (All / Active / Completed)
+- Search todos
+- Multi-language support
+- Light/Dark theme toggle
+- Reset default todos functionality
+
+## Languages Supported
+
+- English (EN)
+- Turkish (TR)
+- German (DE)
+- Russian (RU)
+- Spanish (ES)
+- ... (optional)
+
+## Installation & Running Locally
+
+```bash
+git clone https://github.com/thealiyasar/todoApp.git
+cd todoApp
+npm install
+npm start
+```
+
+## Usage
+
+- Type a task in the input and press Add to add a new todo.
+- Click the todo text to toggle completed status.
+- Use the filter buttons to view All, Active, or Completed tasks.
+- Change the language from the dropdown to translate the interface.
+- Toggle the theme between light and dark using the moon/sun button.
+- Use the reset button to restore the default todos.
+
+## License
+
+MIT License
